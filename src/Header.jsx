@@ -1,11 +1,11 @@
+import logo from "./logo.svg";
 const Header = () => {
-
   return (
-    <div>
-      <h1>test</h1>
-      <p>{process.env.REACT_APP_TEST}</p>
-    </div>
-  )
-}
+    <header>
+      <img className="headerLogo" src={logo} alt="logo" />
+      <h1>Menu Genius</h1>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
